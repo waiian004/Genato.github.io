@@ -1,0 +1,141 @@
+
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bodybackground\ .jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 55px;
+    max-width: 1200px; /* Set a maximum width to prevent excessive stretching on large screens */
+    margin-left: auto; /* Center align the container */
+    margin-right: auto;
+}
+
+/* Header styles */
+header {
+    background-image: url('headerbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    height: 35vh;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+img {
+
+    border-radius: 10%; /* Make the image round */
+    border: 3px solid #338A90; /* Add a white border */
+    transition: transform 0.3s ease; /* Add a transition effect */
+}
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #338A90;
+    text-decoration: none;
+    margin: 0 45px;
+    font-size: 1.2em;
+    transition: color 0.3s, background-color 0.3s; /* Added background-color transition */
+}
+
+nav a:hover {
+    color: #ffffff;
+    font-weight: bold; /* Highlighted link boldness */
+    text-decoration: underline; /* Underline on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Background color change on hover */
+}
+
+/* Main content styles */
+section {
+    margin: 80px auto; /* Center align the section */
+    padding: 30px;
+    background-color: #303030;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Limit maximum width of the section */
+}
+
+h1 {
+    color: #338A90;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+ul {
+    color: #338A90; 
+    font-size: 1.4em;
+}
+
+a {
+    color: #338A90;
+}
+
+p {
+    font-size: 1.3em;
+    color: #338A90;
+    text-align: left;
+}
+
+h3 {
+    color:#338A90
+}
+.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-right: 100px;
+}
+
+.signup-btn {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-color: #338A90; /* Change to desired color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000; /* Change to desired color */
+}
+
+.login-btn {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    background-color: #338A90; /* Change to desired color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000; /* Change to desired color */
+}
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #338A90; /* Change to desired color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000; /* Change to desired color */
+}
+
+
